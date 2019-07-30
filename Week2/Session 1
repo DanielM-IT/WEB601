@@ -1,0 +1,39 @@
+Week 2 Session 1
+
+The focus of this mornings session is on wireframes and prototyping.
+
+In a git repository the master should hold the skeleton of our project and then develop each section on a branch until 
+a stage is reach where I now have a beta version to show to a client. The first prototype should be a basic version of what 
+a project is meant to be so that the project can be demonstrated to the client and then from there each stage can be worked 
+on and added to until the final version is released. 
+What will end up happening is the final release will end up looking nothing like the initial prototype.
+
+Because the project is worked on in stages this allows for the us to build and then test each stage. Doing this iteratively 
+like this allows us to be more flexible in the project development and squash any bugs as they are found to ensure they do 
+not cause worse problems further down the track.
+
+The initial prototyping however is very important as clients want to see progress. If I wait too long to try and get a perfect
+version to show them they will end up going elsewhere and I have lost their business.
+
+Testing is a crucial part of prtotyping. Without constant testing bugs will slip through and cause all manner of problems for 
+the client or their customer base. One popular method of testing is getting volunteers onboard to try out and break the system.
+If they do this is an excellent thing even if it means more work for the developer as it is one more bug to fix however one less 
+to cause the users problems after the final release.
+
+Another form of prototyping is 'Paper Prototyping.' It is a method well used for user interface and user experience design 
+development. Paper prototyping is done using the traditional paper and pencil. It is cheap and save lots of time. Plus it is 
+usually fast to get a sketch drafted for a project. The paper sizes used should be the same size as the screen they are 
+representing.
+
+Paper prototypes include:
+
+- Personas
+- Storyboards
+
+
+Doing user research is vital to understance our users and find out how to tailor our project to meet their needs when creating 
+personas.
+
+Storyboards come after user research and personas. They are used to outline user pain points, i.e. areas of the system which
+could cause problems for the user and then a second story board set is used to portray how the system is improved to solve these
+issues.
