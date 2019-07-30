@@ -1,3 +1,6 @@
-Session 1
+Session 1 & 2 
 
-This mornings session has proved to be highly interesting and informative.
+These sessions have proved to be highly interesting and informative. As a class we are being introduced to a website called Github. This is something I have heard a lot about but never actually looked into. 
+It is an open source repository where members of the IT community can develop and work on both their own and other members projects. A person can work on many projects through Github and over time
+build up quite an immpressive profile/portfolio over time. To the point that in many cases it becomes a person CV when job hunting in the IT industry.
+
