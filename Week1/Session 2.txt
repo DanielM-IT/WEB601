@@ -1,9 +1,18 @@
-Session 1 & 2 
+Session 2 
 
-These sessions have proved to be highly interesting and informative. As a class we are being introduced to a website called Github. 
-This is something I have heard a lot about but never actually looked into. 
-It is an open source repository where members of the IT community can develop and work on both their own and other members projects. 
-A person can work on many projects through Github and over time
-build up quite an immpressive profile/portfolio over time. To the point that in many cases it becomes a person CV when job hunting in 
-the IT industry.
+This session as proven to be highly interesting and informative. As a class we are being introduced to a website called Github. This is 
+something I have heard a lot about but never actually looked into. It is an open source repository where members of the IT community can 
+develop and work on both their own project and other members projects. 
+A person can work on many projects through Github and over time build up quite an immpressive profile/portfolio. To the point that in 
+many cases it can become a CV while job hunting in the IT industry. We have just been informed that all journal entries will be made using 
+github so we get the extra practice using it. I personally think this is a brilliant strategy and am well on board with this. 
+
+Beyond this in class we have been show a program called Visual Studio code. Through the terminal contain within it I will be running 
+multiple git commands to clone my projects off the online github and onto my machine. After finishing my work these projects are then 
+commited and pushed back to github to update my online version of a project. This is all done through using the various basic git commands
+within the Visual Studio Code terminal.
+
+To ensure that I begin to memorize all the different commands I will be sending projects I am working on in other classes to my git 
+repository in addition ot continuing these journal entries. I will also be sending past projects from my time here at NMIT to github so I 
+have old materials to reference when I need to.
 
