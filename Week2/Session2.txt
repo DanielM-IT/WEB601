@@ -1,0 +1,20 @@
+Week 2 Session 2
+
+This session is a continuation of this weeks previous one. The class is split into three groups to simulate
+a real work situation and required to work together to plan and make a start on a mini project for practice.
+
+Among our groups we have to assign a git controller and a person to draw our wireframes while the rest fire 
+out design ideas. Di was assigned to be our git controller, Brad our wireframe drawer and the rest of us idea 
+outputs.
+
+My group and I chose to design a mobile website called Chip Comparer. This will have the functionality of allowing
+its users to compare prices between fish and chip stores in their region. We left off the session by working out 
+among ourselves which section we will each work on. My part is the navigation and I will be developing this 
+over the next few days. 
+All our communication will be done through Slack with Di informing us when she has accepted a push request so that 
+we know when we need to conduct a pull on our local machines to keep our project up to date with any additions 
+which have been pushed by other team members.
+
+Outside of this I have made a start on the html and css 'Codecademy' tutorials we have been requested to complete.
+I dont think I will get them all done as quickly as my tutor wants due to other tutors piling on the work as fast
+as it is on this class. However, I will continuing working away at it whenever I get the chance.

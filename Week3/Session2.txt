@@ -1,0 +1,40 @@
+Week 3 Session 2
+
+Up this morning is Boolean logic. This covers things such as true and false, and logical operators.
+
+Logical operators use the following:
+
+|| = or 
+&& = and
+!  = not
+
+These can be combined with conditions to decide whether a the result will be true or false. The result will change 
+depending on what operators are used and in what order.
+
+Logical operators can quickly be worked out if a set of 'Truth Tables' are kept on hand. These allow a user to quickly 
+work out whether an output will be true or false and include the following tables:
+
+- Negation
+- Conjunction
+- Disjunction
+- Implication
+- Bicondition
+
+
+Afterware we moved onto functions which as it turns out is quite an important topic as most projects will 
+most likely orient around the use of functions.
+
+So far I am finding functions very easy to understand as they seem to function the same way as database functions
+and this is something I did very well on last semester.
+The function is first declared using its reserved word and then given a name followed by parentheses. The function
+may then be called at the end by using the functions name along with its parentheses. Inside the functions 
+parenthesis can be placed the input. This is just a placeholder and will only come into play when the function is 
+called along with an input value. 
+What I found extremely interesting was that our tutor explained the concepts of global execution and local execution 
+threads. The global execution threads stores values held by variables while the local execution thread stores function 
+variables. The function does not have a value. Instead it accepts an input upon it being called and from this input 
+returns an output result.
+
+We were aditionally introdusted to 'CallStack'. This is a way of storing memory in a stack. Basically, it means it is 
+worked on like any other stack... from the top. In other words last in first out. 
+
