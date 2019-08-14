@@ -1,0 +1,19 @@
+Week 3 Session 1
+
+In class time we achieved two things. The first is to cover mathematical operators in JavaScript and the second
+was each team doing a quick class presentation on their project progress.
+
+For the presentation each team is to explain what their project is how they organised each members work and how 
+communication is done to avoid too much confusion. For my team we used Slack which we found to be highly effective.
+
+As for the mathematical operators in JavaScript, I found these very easy to understand as they work in ths same way 
+mathematical operators in database as well as standard algebra from my school years.
+For instance operators in parantheses get worked on first, multiplication and division operators before addition and 
+subtraction, operators of equal importance worked on from left to right, etc.
+
+
+I am still working my way through html and css in Codecademy currently. I am finding that they are taking a while 
+as it has been two years since I last did any web development so I have forgotten quite a bit plus I am encountering 
+quite a lot of code keywords which were not covered or used in that web class. One thing I am doing is adding all my 
+completed Codecademy work to one of my Github repositories. This will give me a code reference I can review at any 
+future date if I forget any of it.

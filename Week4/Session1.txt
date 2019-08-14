@@ -1,0 +1,14 @@
+Week 4 Session 1
+
+This morning began with a explanation of the communications between a web application and the server that provides
+it. This topic I found to be very beneficial as my knowledge on the communications between web browsers and servers
+is lacking. What I had not realised though in hindsight it makes sense is that server componants use codign languages.
+Primarily C/C++. This can create an issue it would seem as packets are sent from a web app which will be in html, css, 
+and java script. Due to the difference in languages the server will not be able to read the incoming packets thus this 
+is where Node.js comes into the picture.
+
+Node.js is a platform environment designed to allow Java Script to be executed outside of a web browser.
+ 
+
+
+
