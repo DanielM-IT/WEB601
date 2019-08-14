@@ -17,4 +17,4 @@ which have been pushed by other team members.
 
 Outside of this I have made a start on the html and css 'Codecademy' tutorials we have been requested to complete.
 I dont think I will get them all done as quickly as my tutor wants due to other tutors piling on the work as fast
-as it is on this class. However, I will continuing working away at it whenever I get the chance. I am 
+as it is on this class. However, I will continuing working away at it whenever I get the chance. 

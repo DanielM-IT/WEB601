@@ -16,4 +16,4 @@ I am still working my way through html and css in Codecademy currently. I am fin
 as it has been two years since I last did any web development so I have forgotten quite a bit plus I am encountering 
 quite a lot of code keywords which were not covered or used in that web class. One thing I am doing is adding all my 
 completed Codecademy work to one of my Github repositories. This will give me a code reference I can review at any 
-future date if I forget any of it.
+future date if I forget anything or need a point of reference.

@@ -21,10 +21,10 @@ work out whether an output will be true or false and include the following table
 - Bicondition
 
 
-Afterware we moved onto functions which as it turns out is quite an important topic as most projects will 
+Afterward we moved onto functions which as it turns out is quite an important topic as most projects will 
 most likely orient around the use of functions.
 
-So far I am finding functions very easy to understand as they seem to function the same way as database functions
+So far I am finding functions very easy to understand as they seem to work the same way as database functions
 and this is something I did very well on last semester.
 The function is first declared using its reserved word and then given a name followed by parentheses. The function
 may then be called at the end by using the functions name along with its parentheses. Inside the functions 
