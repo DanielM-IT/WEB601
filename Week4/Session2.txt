@@ -1,0 +1,33 @@
+Week 4 Session 2
+
+
+
+
+
+
+
+
+
+Over the weekend following this session I have spent much of my time watching tutorials and reading information regarding React.js as well as completing the 
+majority of the documentation needed for the report.
+Part of this research has involved reading up on the difference between classes and functions in React as at first they appeared to be used the same way. I soon 
+learned that functions tend to be more straightforward and have less code. Where as classes require props(parameters) and rendering to be used.
+Fuctions are the better one to use unless a state or lifecycle hook is needed. If this is the case then a class is to be used.
+
+I even saw that constructors can be used in React which led to my doing a bit of reading on these as well. The following is a quote from a website which I felt 
+explaned very simply when I should use a constructor in my scripting. 
+
+"Do you even need a constructor?
+The constructor comes in very handy, but sometimes it’s just too much. If you aren’t planning on maintaining state in your component and aren’t binding any 
+event handlers, you don’t need to define a constructor at all.
+
+In fact, if you don’t need state or event handlers, you probably don’t need a class-based component at all. You can save yourself a little bit of extra typing 
+and simply use a functional component."
+https://alligator.io/react/constructors-with-react-components/
+
+
+I have finished of my weekend hitting a bit of a wall. I am working on settign up my website routes. However, for some reason while I can get the 'react—router-dom' 
+working on my added .js files I cant get it working on the 'App.js' even after researching on the internet and trying fixes that worked for other people.
+One of these included checking that I had everything installed. I checked this by looking at my package.json file and they were. I did still reinstall just to make sure 
+using the folling command: 'npm install react—router-dom'. I even tried reinstalling react: 'npm install react', but no luck. I am hoping that my tutor might have some 
+ideas as it seems weird that it works on some of my .js files but not others. Perhaps I am setting something up wrong on my App.js...?
