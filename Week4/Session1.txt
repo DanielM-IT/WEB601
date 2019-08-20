@@ -2,12 +2,35 @@ Week 4 Session 1
 
 This morning began with a explanation of the communications between a web application and the server that provides
 it. This topic I found to be very beneficial as my knowledge on the communications between web browsers and servers
-is lacking. What I had not realised though in hindsight it makes sense is that server componants use codign languages.
+is lacking. What I had not realised though in hindsight it makes sense is that server componants use coding languages.
 Primarily C/C++. This can create an issue it would seem as packets are sent from a web app which will be in html, css, 
 and java script. Due to the difference in languages the server will not be able to read the incoming packets thus this 
 is where Node.js comes into the picture.
 
-Node.js is a platform environment designed to allow Java Script to be executed outside of a web browser.
+Node.js is a platform environment designed to allow Java Script to be executed outside of a web browser. Modern 
+JavaScript is not just confined to use on a web browser. It is now usable as a stand alone application run on a computer. 
+What makes Node.js so good is that it runs on a single thread and is surprisingly faster than multi-thread applications.
+This is due to it handling requests in a loop and delegating this work to other workers on the machine and then while each 
+worker is hnadling the request it moves onto working on the next request and so on.  
+Another thing which makes Node.js so fast as well is it runs of Googles V8 JavaScript Engine. Unlike many other applications 
+which use an interpreter this converts JavaScript into native machine code which is easier and quicker for each machine to 
+run.
+
+Express.js is basically an extension of the core Node.js. It is a prebuilt Node.js framework is faster and simpler to use.
+To install I must first step into the project directory:
+$ cd (directory name)
+
+then initialise the package.json file with:
+$ npm initialise
+
+last comes the install:
+$ npm install express --save
+
+the --save ensures that express is permanent and added to the dependencies list. If I instead wanted it temporary and not 
+added to the dependencies list I would use '--no-save'.
+
+
+
  
 
 

@@ -1,11 +1,16 @@
 Week 4 Session 2
 
+This session is pretty much an extention of last. Previously we learned about Node.js and Express.js, including how to install them. This session we are
+going deeper and learning how to use Express.js through something called Express scaffolding..
+Most interestingly is that our tutor used an analogy between Express.js and a restaurant to customer system to explain it. Ill try and re-explain using 
+the notes I have taken. 
+
+app.
 
 
 
-
-
-
+While it is good to know how to set up my own express.js app I can actually bypass a lot of this work saving a lot of time by using the boilerplate React App 
+template found here to gain a head start on any React-based website I build.
 
 
 Over the weekend following this session I have spent much of my time watching tutorials and reading information regarding React.js as well as completing the 
@@ -31,3 +36,6 @@ working on my added .js files I cant get it working on the 'App.js' even after r
 One of these included checking that I had everything installed. I checked this by looking at my package.json file and they were. I did still reinstall just to make sure 
 using the folling command: 'npm install react—router-dom'. I even tried reinstalling react: 'npm install react', but no luck. I am hoping that my tutor might have some 
 ideas as it seems weird that it works on some of my .js files but not others. Perhaps I am setting something up wrong on my App.js...?
+
+Update...! This next morning I have solved the problem! I was originally doing all of this work on my laptop. However, at home I always use my faster desktop and it seems when I 
+began my weekend I forgot to install node.js before starting to code with react. Installing this has fixed my issue. 
