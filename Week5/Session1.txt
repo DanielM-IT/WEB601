@@ -1,0 +1,30 @@
+Week 5 Session 1
+
+This mornings class has a focus on understanding routes. 
+To begin with we broke down a URL address to understand each of its components.
+Below is a break down of an example YouTube URL.
+https://www.youtube.com/watch?v=hj83cwfOF3Y
+
+https:// = this defines the protocol
+
+www. = this is the sub domain
+
+youtube.com = this is the host, it can additionally be entered as an IP address instead of host name if it is known.
+
+watch = path
+
+?v=hj83cwfOF3Y = query string. These start with the ? and are separated by & if it is needed.
+
+if there is a # this if called the fragment i.e. #history
+
+if I was using a local host URL, for example: http://localhost:3000/home then
+
+ localhost = this specifies that my machine is the host
+
+ 3000 = this is the port number being used
+
+
+Following this we moved onto http request methods. These are 'get' and 'post'.
+
+
+
