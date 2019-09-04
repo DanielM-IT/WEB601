@@ -1,0 +1,102 @@
+There were no entries last week as it was a non-contact week and I had to spend it on another class's assignment.
+
+For todays session we are looking at functional and class components.
+
+
+
+~ Functional components ~
+
+These are functions which are often referred to as stateless or presentational components. 
+Presentational because they can only output UI elements. 
+Stateless because they cannot be used to change a component or elements state.
+Another thing that functioanl components cannot user are lifecycle hooks which are methods which are called at 
+different phases of a components lifcycle.
+
+Below are some fuctional component examples:
+
+const Example = () => {
+return (
+<h1>I'm a funcational component!</h1>
+)
+}
+
+function Welcome(props) {
+  return <h1>Hello, {props.name}</h1>;
+}
+
+The first one is written in a simple form using a variable which is the syntax used in ES6 while the second uses 
+the older standard JS function structure.
+
+Both are fine to use but it can be noted that functional components must have a return. Also, the use of props is 
+optional and can be used as required.
+
+This next line of code is used to render the output of the specified funtion. As can be seen it will render the 
+output of the function 'Greeting.'
+
+ReactDOM.render(<Greeting />, document.getElementById('root'));
+
+
+
+~ Class components ~
+
+Two additional terms used to describe class components are stateful or smart components. Class components 
+are considered to be smart as they can handle logic, stateful because they can manage a components or elements 
+state.
+Below is an example class coponent. It can be noted that it imports and extends upon a react component from the 
+react library. It then renders and returns the output. Finally, the 
+
+import React, { Component } from 'react';
+
+class MyComponent extends Component {
+  render() {
+    return (
+      <div>This is my component.</div>
+    );
+  }
+}
+
+export default MyComponent;
+
+Below are what a class component can do:
+
+ - can accept props if needed in the constructor
+ - maintains its own data with state management
+ - must have a render() method and this must return either null or a react element.
+
+
+
+~ Props ~
+
+These are parameters/arguments passed to the component. One important thing to note is that props are read only.
+
+
+If only a single argument is used parentheses are not needed. However, if two or more are passed then parentheses
+will be required to group them.
+
+
+
+~ Nesting and Calling Components ~
+
+Within react we are able to reference components withing other components. This is one of the things that makes 
+react so good is that components can be reused in this way. A single component can be referenced and used within
+multiple other components.
+
+Components are called within a component using a a tag which is like an Html tag. 
+For instance:
+
+<Component />
+
+This is something I have used a lot of in my recent milestone one submission.
+
+Important! From experience the component called must be imported from its location or it just wont work.
+
+
+
+~ Styling Components ~
+
+This we covered near the end. There a several ways in which this can be done. 
+
+Inline styling... try to avoid. Is okay to use sometimes but not for most projects as it makes for very long in-efficient code. 
+It is far better to have all CSS on a CSS module and import this for each component that uses CSS from it.
+They use the .className syntax.
+Another way which I have only just explore a little bit of is importing CSS from the styled components library.
