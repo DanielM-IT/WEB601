@@ -1,0 +1,102 @@
+Hurray I have got my laptop back. It seems the motherboard was completely fried and had to be replaced. As a result this week will be focused on transferring the journal
+entries I have written for the last few sessions on text documents into this journal.
+
+Now for todays work.
+We are beginning to look at connecting our front end to our backend which will include using a database. Our projects are going to be getting used with Knex.js which is 
+a query builder tool available to help us build database queries for our websites data. This I am looking forward to as database highly interests me. However, for today
+my curiosity will be put on hold as we are beginning by using MySQL. Now this I am well familiar with due to using it last semester in DAT602. Though admittedly I did 
+have to refresh on some of the syntax as I have been spending this semester in SQL Server which has slightly different syntax in areas. Apart from this setting up a 
+database in MySQl was a breeze. We have created for ourseves two tables for use later on in the week. An employee table and a department table. These we populated with 
+data. For mine I took a shortcut I know of by utilising a site called 'Generatedata.com' this can be used to generate test data for a variety of programming languages 
+including sql. Using this I have been able to rapidly insert a set of test data into both of my tables. Now I am ready for Fridays session.
+Below is the script I used in my database creation and populating.
+
+
+CREATE DATABASE web601test;
+
+USE web601test;
+
+DROP TABLE IF EXISTS Employees;
+DROP TABLE IF EXISTS Departments;
+
+CREATE TABLE Departments (
+DepartmentID int AUTO_INCREMENT,
+DepartmentName varchar(60) NOT NULL,
+Location varchar(60) NOT NULL,
+PRIMARY KEY (DepartmentID)
+);
+
+CREATE TABLE Employees (
+EmployeeID int AUTO_INCREMENT,
+FullName varchar(100) NOT NULL,
+Address varchar(100) NOT NULL,
+Email varchar(100) NOT NULL,
+Salary decimal(10, 2) NOT NULL,
+DepartmentID int NOT NULL,
+PRIMARY KEY (EmployeeID),
+FOREIGN KEY (DepartmentID) REFERENCES Departments(DepartmentID)
+)
+
+
+INSERT INTO Departments (DepartmentName,Location) 
+VALUES ("Gravida Foundation","Saint Vincent and The Grenadines"),
+("Nulla Donec Foundation","Hong Kong"),("Velit Egestas Lacinia Corporation","Faroe Islands"),
+("Habitant LLP","Tonga"),("At Velit Ltd","Greece"),("Per Conubia Nostra Inc.","Dominica"),
+("Inceptos Hymenaeos Mauris PC","Montenegro"),("Nulla Aliquet Consulting","Namibia"),
+("Ut Semper Pretium Industries","South Africa"),("Morbi Accumsan Laoreet Foundation","Albania"),
+("Aenean Eget Magna Foundation","Korea, South"),("Suspendisse Eleifend Inc.","Ghana"),
+("Proin Mi Inc.","Netherlands"),("Arcu Nunc Mauris LLP","Åland Islands"),("Ante Maecenas Mi Consulting","Chad");
+
+
+INSERT INTO Employees (FullName,Address,Email,Salary,DepartmentID) 
+VALUES ("Lucy Sampson","Ap #134-5253 Iaculis St.","porttitor.scelerisque@elitCurabitur.net","81050.86",9),
+("Oscar Madden","400-5577 Diam St.","iaculis.quis@Suspendisse.org","71707.13",3),
+("Nissim Winters","Ap #830-6685 Aliquam Rd.","orci@Naminterdum.co.uk","99259.91",7),
+("Karen Joyce","800-4919 Sit Street","in.dolor.Fusce@QuisquevariusNam.com","81797.36",2),
+("Wylie Finch","1389 Sed Street","velit.eget.laoreet@Integerurna.net","91830.38",5),
+("Marny Ray","8540 Consectetuer Rd.","Aenean.eget@nonummyipsum.net","85099.34",1),
+("Darrel Alvarado","Ap #770-1291 Ipsum. Street","ipsum.dolor.sit@lorem.ca","41826.10",14),
+("Rhea Daugherty","P.O. Box 199, 4379 Aliquet Street","facilisis.eget.ipsum@egestasligulaNullam.co.uk","34209.72",2),
+("Tatiana Wilder","5931 Felis Road","ultricies.adipiscing@sit.co.uk","84687.22",13),
+("Blake Salazar","P.O. Box 168, 5192 Mollis Ave","tortor@in.net","52044.92",8),
+("Iona Sampson","2979 Tempor Road","interdum.libero.dui@odioAliquam.co.uk","93940.98",4),
+("Brenna Little","900-7229 Ante Av.","metus.facilisis@fermentum.org","38637.63",11),
+("Philip Morin","523-5518 Iaculis Ave","et.magnis@ante.edu","39477.95",12),
+("Regan Peck","P.O. Box 310, 4623 Arcu. St.","non.sollicitudin.a@rutrum.edu","83855.66",13),
+("Yael Thomas","P.O. Box 122, 9191 Vel, Avenue","sapien.cursus.in@seddolorFusce.ca","33369.77",14),
+("Tate Roberson","387-6476 Egestas. Rd.","aliquam.eu@aliquam.edu","98158.13",3),
+("Joshua Mack","6826 Arcu. St.","lectus.ante.dictum@magnaSuspendissetristique.net","41060.36",7),
+("Skyler Kirby","Ap #353-4369 Euismod St.","tellus@sagittisplacerat.edu","33869.86",12),
+("Griffith Warren","Ap #763-5438 Eu St.","arcu.Sed@lectusjusto.co.uk","53560.22",6),
+("Felix Berry","362-4314 Sagittis. Street","non.feugiat.nec@urnanec.com","51821.56",3),
+("Abra Hess","905-9918 Ut Ave","lacus.Quisque.imperdiet@tempus.org","30345.78",1),
+("Igor Morgan","3526 Euismod Road","a.facilisis.non@tellus.org","93975.39",12),
+("Jaime Jennings","5491 Netus Rd.","in.lobortis.tellus@cursusinhendrerit.edu","77784.29",2),
+("Andrew Bean","2277 Mauris St.","vulputate@tellus.co.uk","66399.72",3),
+("Holmes Rocha","7445 Magna, Street","Fusce.diam@lectusantedictum.edu","32374.90",12),
+("Justin Simpson","2137 Et Street","Sed.eget@elementumlorem.ca","95175.00",12),
+("Lane Rodriguez","P.O. Box 425, 1499 Pretium Street","orci@commodotinciduntnibh.edu","59607.51",15),
+("Moana Massey","P.O. Box 629, 9065 Elementum, Av.","dignissim.pharetra.Nam@Quisquetincidunt.com","82687.78",6),
+("Kevin Whitehead","Ap #846-3682 Magna. St.","arcu.Vestibulum.ut@CrasinterdumNunc.edu","33410.52",2),
+("Anastasia Weber","P.O. Box 892, 3605 Ac Avenue","gravida.Praesent.eu@commodo.com","68449.83",12),
+("Cassidy Bryant","P.O. Box 302, 6130 Aliquam Avenue","diam.dictum.sapien@elitdictumeu.ca","56003.17",15),
+("Julie Lindsay","Ap #895-9622 Placerat, St.","eu.arcu@justo.org","60616.50",1),
+("Scarlett Freeman","9135 Interdum. Street","sed.sapien.Nunc@egetlaoreet.net","47294.12",4),
+("Macey Odom","6678 Lorem, St.","vulputate.risus@est.ca","76210.18",12),
+("Marah Chaney","P.O. Box 390, 5034 Mi Av.","a.odio@tacitisociosqu.edu","38096.36",11),
+("Hadassah Mills","188-389 Aenean Av.","lacus@acnulla.ca","71389.90",15),
+("Ethan Spence","Ap #565-8154 Dapibus St.","interdum.Nunc.sollicitudin@Aeneanegetmagna.net","84370.15",10),
+("Veronica Hardy","P.O. Box 629, 9322 Est. Av.","dictum@fringilla.ca","92031.07",5),
+("Stacey Medina","384 Sagittis Avenue","tincidunt.neque@tinciduntneque.co.uk","34697.23",15),
+("Rhea Barnett","Ap #497-8850 Ultrices. Rd.","aliquam.iaculis.lacus@lectus.org","65453.96",3),
+("Dawn Sutton","797-5807 Interdum. Rd.","Morbi@lacusEtiambibendum.net","67850.36",14),
+("Ria Barron","P.O. Box 451, 7474 Leo Ave","eros.nec.tellus@enim.edu","33335.55",10),
+("Adrian Ross","157-1826 Sed Ave","Sed.malesuada@vitaealiquameros.com","61516.00",2),
+("Berk Santana","962-1426 Non, St.","bibendum.ullamcorper@erosnon.edu","49791.73",3),
+("Kuame Galloway","P.O. Box 488, 6703 Curabitur Rd.","suscipit.est@nuncac.ca","92755.48",7),
+("Jameson Gillespie","587-805 Interdum Ave","ac.nulla@lacusQuisque.org","71750.77",5),
+("Hanae Stein","159-615 Non, Rd.","convallis@euismodetcommodo.net","73898.76",11),
+("Shoshana Aguilar","Ap #841-7930 Tellus St.","torquent@sitamet.ca","57290.14",12),
+("Rose Coffey","3693 Arcu Road","nisi@sociisnatoque.net","34974.26",9),
+("Gretchen Brady","Ap #117-7947 Auctor. Ave","dui@pharetra.net","88067.33",10);
+

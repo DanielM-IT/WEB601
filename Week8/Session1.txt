@@ -1,0 +1,39 @@
+Due to my laptop completely dying on me and being sent away I am without a laptop with the required apps for at least a week
+if not longer. Due to this all my work will have to be done on my home computer. I will be following the class sessions 
+and documenting in detail the class material on paper so that I can replicate what was done in class at home. Because I am 
+documenting in such detail I will be using my notes for my journal entries. 
+
+For todays session we are learning to create a react app from scratch without using the react-app boilerplate. This is a 
+good exercise for us as it prevents us becoming dependent on the boilerplate.
+Below is my documentation on the steps required to build this app from scratch:
+
+1. The first thing to do is create an index.html file. With in this start typing html and tab over on the line that says 'html:5' this will add the following:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+2. Place in the body: <script src="https://unpkg.com/react@16.8.0/umd/react.development.js"></script>
+
+3. Add also: <script src="https://unpkg.com/react@16.8.0/umd/react-dom.development.js"></script>
+
+4. Add a live server if it doesn't already exist. Either 'npm i -g live-server' or if want to ensure the lastest version is added 'npm i -g live-server@latest'
+
+5. To test the live server enter into the console 'live-server (root folder name)'
+
+6. Next babel is need so that the JSX is understood. Begin by entering 'npm init -y' to set up the package.json.
+
+7. 
+
+
+
+
