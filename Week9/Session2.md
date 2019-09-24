@@ -1,9 +1,25 @@
 # Week 9: Session 2
 
 This session is about setting up restful api's through express. And oh my there is a lot to take in. It is intended as a continuation of last session where this time 
-we are setting up our server and creating http requests which is then tested through a program called 'Postman'. 
+we are setting up our server and creating http requests which is then tested through a program called 'Postman'. The first thing to look at is what is a restful API?
 
+From what I understand, a restful API is a the use of the applications programming interface to send and receive data through http requests and responses, and change the state of this data. AS part of todays code we used GET and POST quite a bit. This was here we either put out a request for certain data from our backend, i.e. database (GET) or sent data to it (SEND).
 
+Below is an example of Get and Send from code used in class. In this a request is being sent to get the employee list or post data on a new employee depending on the decision of the user. If there is an error in the request the default option will show us that there was an error.
+
+    if (urlEmployee.pathname == '/api/employees') {
+        switch(req.method) {
+            case 'GET':
+                employeesList(req, res)
+                break;
+            case 'POST':
+                addEmployee(req, res)
+                break;
+            default:
+                errorRequest(req, res)
+                break;
+        }
+    }
 
 
 
