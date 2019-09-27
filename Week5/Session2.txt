@@ -1,0 +1,8 @@
+Week 5 Session 2
+
+This session had a focus on project work with the Milestone 1 deadline almost upon us. For the most part I have my webside at a satisfactory point
+with routes working to move between pages. What I am currently working on is the documentation. I still have personas and my site structure 
+navigation to complete, as well as a need to redo my wireframes as since I last did them I have made quite a few changes to how I want my site to end up.
+
+Beyond this there is not much to add for this particular journal entry except to say that my project is coming along nicely and will easily be finished 
+by the deadline.

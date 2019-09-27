@@ -25,6 +25,17 @@ if I was using a local host URL, for example: http://localhost:3000/home then
 
 
 Following this we moved onto http request methods. These are 'get' and 'post'.
+GET is used to retrieve data from the server, while POST is used to send new or updated data to the server.
+Below are examples of each:
 
+app.get('/headers', (req, res) => {
+    res.set('content-type', 'text/plain')
+    var s = 'HTTP GET done'
+    for (var name in req.headers) s += ':' + req.header[name]
+    res.send(s)
+})
 
+app.post('/headers', (req, res) => {
+    res.send('HTTP POST done');
+});
 
