@@ -5,4 +5,5 @@ with routes working to move between pages. What I am currently working on is the
 navigation to complete, as well as a need to redo my wireframes as since I last did them I have made quite a few changes to how I want my site to end up.
 
 Beyond this there is not much to add for this particular journal entry except to say that my project is coming along nicely and will easily be finished 
-by the deadline.
+by the deadline. I would like to be able to say I have made progress on the code camp exercises set for us. However, with working on this assignment and 
+work for other classes I just haven't found the time as of yet.
