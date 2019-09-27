@@ -1,4 +1,7 @@
-There were no entries last week as it was a non-contact week and I had to spend it on another class's assignment.
+Week 7 Session 1
+
+There were no entries last week as it was a non-contact week and I had to spend it on another class's assignment so 
+not much has been done for this web course over this period.
 
 For todays session we are looking at functional and class components.
 
