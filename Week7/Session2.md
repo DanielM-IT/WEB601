@@ -4,7 +4,7 @@ Today the focus is on component lifcycles. Like anything else that has a lifecyc
 Over the lifecycle of a component different methods can be used at the various stages of the lifecycle. Part of todays session was us having a research into these and creating a repository that contains the different methods usable in a component lifecycle.
 
 Below is an image from google which shows the diferent methods and which phases of the component lifecycle they are used in.
-<img src="https://drive.google.com/file/d/1fJwabimnl3AuG6daRn-pbymab_190VdR/view?usp=sharing" />
+https://drive.google.com/file/d/1fJwabimnl3AuG6daRn-pbymab_190VdR/view?usp=sharing"
 
 The first section is mounting of the component. This usually starts out by being initialized by the 'constructor()' method.
 Next up is the 'render()' method. This is the most used lifecycle method and this is because it must be used in all React classes.It renders the component to the UI and happens during the mounting and updating phases of a components lifecycle.
