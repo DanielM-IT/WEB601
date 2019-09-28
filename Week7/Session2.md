@@ -6,8 +6,13 @@ Over the lifecycle of a component different methods can be used at the various s
 Below is an image from google which shows the diferent methods and which phases of the component lifecycle they are used in.
 <img src="https://drive.google.com/file/d/1fJwabimnl3AuG6daRn-pbymab_190VdR/view?usp=sharing" />
 
-The first section is mounting of the component. This usually starts out by being initialized by the constructor method
+The first section is mounting of the component. This usually starts out by being initialized by the 'constructor()' method.
+Next up is the 'render()' method. This is the most used lifecycle method and this is because it must be used in all React classes.It renders the component to the UI and happens during the mounting and updating phases of a components lifecycle.
+Other methods which can be implemented during the mounting phase are 'getDerivedStateFromProps()', 'componentDidMount()' and 'comonentWillMount()'.
 
+The methods that can be implemented during the update period are 'getSnapshotBeforeUpdate()', 'shouldComponentUpdate()', 'componentDidUpdate()', and 'componentWillUpdate()'.
+
+For unmounting 'componentWillUnmount()' is used. This unmounts and destroys the component. It is considered a good place to clean up data as a result.
 
 
 For the end of this session we have been asked to group ourselves into groups of three and prepare to give a thunder talk a week from today. The topic will 
