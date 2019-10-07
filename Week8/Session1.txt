@@ -7,7 +7,13 @@ For todays session we are learning to create a react app from scratch without us
 good exercise for us as it prevents us becoming dependent on the boilerplate.
 Below is my documentation on the steps required to build this app from scratch:
 
-1. The first thing to do is create an index.html file. With in this start typing html and tab over on the line that says 'html:5' this will add the following:
+Begin with the following folder structure:
+
+react-class (folder)
+    public (folder)
+    scripts (folder)
+
+1. The first thing to do is create an index.html file inside the project. With in this start typing html and tab over on the line that says 'html:5' this will add the following:
 
 <!DOCTYPE html>
 <html lang="en">
@@ -30,10 +36,41 @@ Below is my documentation on the steps required to build this app from scratch:
 
 5. To test the live server enter into the console 'live-server (root folder name)'
 
-6. Next babel is need so that the JSX is understood. Begin by entering 'npm init -y' to set up the package.json.
+6. Next Babel is needed so that the JSX is understood. Begin by entering 'npm init -y' to set up the package.json. -y will set it up automatically. Ommit if want to do it manually.
 
-7. 
+7. To set up Babel enter into the console 'npm install --save babel-preset-env@latest babel-preset-react@latest'. If ever want to uninstall just replace 'install' with 'uninstall'.
 
+8. Should now be able to view my package.json to see all dependencies including the Babel just installed.
 
+9. In react-class create a folder called 'src'. In this create two js files 'app.js' and 'es6.js'.
 
+10. In the index.html body insert: <script src="/scripts/app.js"></script>
 
+11. To test this go to src/app.js and place in it:
+
+    let template =(
+        <div>
+            <p>Hello Class!</p>
+        </div>
+    )
+
+    let root = document.getElementById('app')
+
+    ReactDOM.render(template, root)
+
+12. To test if it is working type in the console: babel src/app.js --out-file=public/scripts/app.js -- presets=env,react
+
+13. In es6.js insert:
+
+    class Student {
+        constructor(name) {
+            this.name = name }
+        getGreeting() {
+            return `Hello ${this.name}!`
+        }
+    }
+
+    const FirstStudent = new Student ('Daniel')
+    console.log(FirstStudent.getGreeting)
+
+14. Finally to test thsi last part insert into the console: babel src/app.js --out-file=public/scripts/es6.js -- presets=env,react

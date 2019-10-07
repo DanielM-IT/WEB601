@@ -1,0 +1,3 @@
+# Week 10: Session 2
+
+Again I am not able to attend class due to still being sick. If anything it is worse now and I have been unable to make no progress since my last entry. The next two weeks are holidays so I will be using them to catch up on work missed and get the next phase of my project for milestone 2 up to where it needs to be. As part of this I have sceduled a meeting for this coming Monday with my tutor to go over things needed for the milestone and get help on a few things I am unsure over.
