@@ -21,16 +21,6 @@ Below is an example of Get and Send from code used in class. In this a request i
         }
     }
 
-
-
-
-
-
-
-
-
-
-
 At the end of the session I dont feel that I completely understand what to do but as I continue to look into over the weekend I am hoping that this will change.
 I think the problem is just the sheer volume of code that needs to be learned. As I mentioned in an earlier entry that I am slow to learn code but proficient 
 when in it when I do and this is no exception. I believe I am going to have to sink quite a few hours into restful api's to understand them enough to use in my projects.
