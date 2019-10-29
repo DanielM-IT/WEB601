@@ -1,2 +1,3 @@
 # Week 11: Session 2
 
+This is the last class before Milestone 2 is due. At the moment I am in a good place where all I need to do is figure out how to update data, finish the last part of my documentation and finish commenting my client code. As a result of being up to date I was called upon in class to peer code with other students who have not yet completed the server requests I have. This I do not mind because as always my philosophy is that i learn more by teaching than by just doing it myself.
