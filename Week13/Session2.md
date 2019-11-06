@@ -1,3 +1,7 @@
 # Week 13: Session 2
 
+In todays session we have been give a task. Redux.js website has a basic tutorial which gets those following it creating a to do list in steps. This is what the session was spent doing.
+I didn't manage to complete all of it within the class time. However, this is due to my going very slow and and trying to be careful that I didn't move on until I was sure I understood each current section of the tutorial. After following this I feel that I am starting to get an idea of how Redux works. Our tutor wasn't kidding when he said that iy has a steep learning curve. But I can start to see the light at the end I am sure of it.
+
+The show casing of my website which I mentioned in a previous entry is almost here. It will be happening tonight and I am currently plat out finishing a few last minute things I would like to have completed when I do my talk. Since my last mention of it I have got a new navbar implemented as a component through bootstrap which works much better than the one I was manually trying to create plus I have added in better css design as well as some responsiveness. An issue that did arise was upon adding bootstrap all my fonts scaled up. This is because bootstrap has its own global fonts which are implemented within the website upon adding it in. I did quite a bit of research and testing before figuring out that they can be overridden a specific way within my css.
 
