@@ -1,0 +1,1 @@
+Been given codecademy exercises to do all class.
