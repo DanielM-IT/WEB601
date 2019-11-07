@@ -23,3 +23,5 @@ const rootReducer = Redux.combineReducers({
   count: counterReducer,
   auth: authReducer
 })
+
+Each week a group of 5 of us will be going to a company called "Shuttlerock" to visit, have a look around and ask questions. 
