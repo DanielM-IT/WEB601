@@ -24,4 +24,4 @@ const rootReducer = Redux.combineReducers({
   auth: authReducer
 })
 
-Each week a group of 5 of us will be going to a company called "Shuttlerock" to visit, have a look around and ask questions. 
+Each week a group of 5 of us will be going to a company called "Shuttlerock" to visit, have a look around and ask questions. I went with the first group after this afternoons session. The intention behind these visits is to give us a feel for the work environment of a developer and ask questions that will better help us understand what we can expect.
