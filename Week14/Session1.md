@@ -57,5 +57,5 @@ Followed by the store creation and dispatching of the actions and their state ch
 
 const store = createStore(ourDepartments);
 
-store.dispatch(createPolicy('Alex',50));
-store.dispatch(createPolicy('Bob',30));
+store.dispatch(createPolicy('Daniel',27));
+store.dispatch(createPolicy('Calida',24));
